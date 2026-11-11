@@ -1,0 +1,5 @@
+curl -LO https://github.com/skeeto/w64devkit/releases/latest/download/w64devkit-1.21.0.zip
+
+tar -xf w64devkit-1.21.0.zip -C C:\
+
+setx PATH "%PATH%;C:\w64devkit\bin"
